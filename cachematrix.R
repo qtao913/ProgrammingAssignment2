@@ -24,8 +24,6 @@ makeCacheMatrix <- function(x = matrix()) {
 	list(set = set, get = get, setInverse = setInverse, getInverse = getInverse)
 }
 
-
-
 ## Write a short comment describing this function
 ## return the value in cache if the inverse of "x" is calculated, or calculate the inverse and set the cache
 cacheSolve <- function(x, ...) {
